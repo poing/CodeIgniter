@@ -1,0 +1,3 @@
+[submodule "application/modules/tps"]
+	path = application/modules/tps
+	url = git@github.com:invitecomm/third-party-submodule.git
