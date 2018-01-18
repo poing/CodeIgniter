@@ -1,4 +1,0 @@
-[submodule "application/config/localhost"]
-	path = application/config/localhost
-	url = ssh://git-private.invite-comm.jp/v1/repos/5a600001b5823
-	branch = master
