@@ -1,3 +1,0 @@
-[submodule "application/config/localhost"]
-	path = application/config/localhost
-	url = ssh://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/5a600001b5823
