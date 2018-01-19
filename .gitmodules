@@ -1,0 +1,16 @@
+[submodule "application/config/production"]
+	path = application/config/production
+	url = ssh://git-private.invite-comm.jp/v1/repos/helios-config-production
+	branch = master
+[submodule "application/config/localhost"]
+	path = application/config/localhost
+	url = ssh://git-private.invite-comm.jp/v1/repos/helios-config-localhost
+	branch = master
+[submodule "application/config/testing"]
+	path = application/config/testing
+	url = ssh://git-private.invite-comm.jp/v1/repos/helios-config-testing
+	branch = master
+[submodule "application/config/development"]
+	path = application/config/development
+	url = ssh://git-private.invite-comm.jp/v1/repos/helios-config-development
+	branch = master
