@@ -21,5 +21,11 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('welcome_message');
+		
+//			ini_set('display_errors', 'Off');
+		$this->load->database('default',FALSE);
+		$this->load->library('session');
+
+
 	}
 }

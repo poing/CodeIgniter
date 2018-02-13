@@ -11,15 +11,9 @@ Allow from all
 #  Apache/2.2.15
 
 SetEnvIf Host (.*).(.*).(.*)$ CI_ENV=production
-SetEnvIf Host (.*).web(.*).(.*).(.*)$ CI_ENV=testing
-SetEnvIf Host (.*).beta.(.*).(.*)$ CI_ENV=testing
-SetEnvIf Host (.*).dev(.*).(.*).(.*)$ CI_ENV=development
+SetEnvIf Host (.*).alpha(.*).(.*).(.*)$ CI_ENV=testing
+SetEnvIf Host (.*).beta.(.*).(.*)$ CI_ENV=development
 SetEnvIf Host (.*).localhost.(.*).(.*)$ CI_ENV=localhost
-
-SetEnvIf Host frontier.(.*).(.*)$ CI_ENV=production-frontier
-SetEnvIf Host frontier.web(.*).(.*).(.*)$ CI_ENV=testing-frontier
-SetEnvIf Host frontier.beta.(.*).(.*)$ CI_ENV=testing-frontier
-SetEnvIf Host frontier.dev(.*).(.*).(.*)$ CI_ENV=development-frontier
 
 # Set PHP values for consistency between different server.
 
